@@ -8,7 +8,9 @@ def add_student(name):
 
 
 def add_grade(name, grade):
-    pass
+    name = input("Enter a student name: ")
+    if name in students:
+        grade = input("Enter the grades: ")
 
 
 def calculate_average(name):
